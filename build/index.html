@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./bundle.css">
+    <script type="text/javascript">
+        timeend= new Date();
+        timeend= new Date('2016-12-13');
+        function time() {
+            today = new Date();
+            today =(-1)* (Math.floor((timeend-today)/1000));
+            tsec=today%60; today=Math.floor(today/60);
+            tmin=today%60; today=Math.floor(today/60);
+            thour=today%24; today=Math.floor(today/24);
+            timestr=today +" days "+ thour+" hours "+tmin+" minutes "+tsec+" seconds";
+            document.getElementById('t').innerHTML=timestr;
+            window.setTimeout("time()",1000);
+        }
+    </script>
+</head>
+<body onload="time()">
+
+<div id="app"></div>
+
+<script src="bundle.js"></script>
+<script src="https://use.fontawesome.com/89c0518662.js"></script>
+
+</body>
+</html>
