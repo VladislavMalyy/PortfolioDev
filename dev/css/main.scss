@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul li{
+  list-style: none;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+.container{
+  max-width: 160rem;
+  min-width: 32rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+@import "header";
+@import "about";
+@import "skills";
+@import "projects";
+@import "footer";

@@ -1,0 +1,81 @@
+.projectsBlock{
+  padding: 3rem 0;
+  background-color: #f6f2f2;
+  &__title{
+    color: rgb(0,0,0);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 5.5rem;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  &__subtitle{
+    color: #ff2d2d;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 3.5rem;
+    text-transform: uppercase;
+    margin: 3rem 0;
+    text-align: center;
+    &:after{
+      content: '';
+      display: block;
+      width: 200px;
+      height:3px;
+      background-color: #ff2d2d;
+      margin: 2rem auto 0;
+    }
+  }
+  .projectsItem{
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+    border-bottom: 5px dotted #ff2d2d;
+    &.last{
+      border: none;
+    }
+    &__photoArea{
+      width: 25%;
+      img{
+        width: 100%;
+      }
+    }
+    &__descArea{
+      padding: 0 2rem;
+      width: 75%;
+      position: relative;
+    }
+    &__title{
+      color: rgba(0,0,0,.7);
+      font-family: 'Gloria Hallelujah', cursive;
+      font-size: 2.2rem;
+      font-weight: 700;
+      line-height: 3.0rem;
+      text-transform: uppercase;
+      margin-bottom: 3rem;
+    }
+    &__desc{
+      color: rgba(0,0,0,.7);
+      font-family: 'Open Sans', sans-serif;
+      font-size: 1.6rem;
+      font-weight: 500;
+      line-height: 2.0rem;
+    }
+    &__link{
+      display: inline-block;
+      padding: 1rem 3rem;
+      background-color: #ff2d2d;
+      color: #fff;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 1.6rem;
+      border-radius: 10px;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+  }
+}

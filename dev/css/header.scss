@@ -1,0 +1,47 @@
+.headerBlock{
+  height: 9rem;
+  background-color: rgba(0,0,0,.8);
+  .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:100%;
+  }
+  &__logo{
+    width: 50%;
+    .text{
+      width: 5rem;
+      height: 5rem;
+      background-color: #ff3f40;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Gloria Hallelujah', cursive;
+      font-size: 2rem;
+    }
+  }
+  &__nav{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+  }
+  &__link{
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    &.active{
+      background-color: #ff3f40;
+    }
+    a{
+      color: #e0e0e0;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 1.4rem;
+      font-weight: 700;
+      line-height: 2.4rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+  }
+}

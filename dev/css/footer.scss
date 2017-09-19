@@ -1,0 +1,53 @@
+.footerBlock{
+  padding: 2rem 0;
+  background-color: rgba(0,0,0,.8);
+  .container{
+    display: flex;
+    justify-content: center;
+  }
+  &__contacts{
+    width: 50%;
+  }
+  &__links{
+    width: 50%;
+  }
+  &__contactItem{
+    color: #fff;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+    a{
+      color: #fff;
+      &:hover{
+        color: #ff2d2d;
+      }
+    }
+  }
+  &__links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  &__linkItem{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: #ff2d2d;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    i{
+      font-size: 2.4rem;
+    }
+    &:hover{
+      border: 2px solid #ff2d2d;
+      background-color: #fff;
+      i{
+        color: #ff2d2d;
+      }
+    }
+  }
+}
