@@ -4,43 +4,43 @@ const DATA = {
         {
             'id' : '0',
             'title' : 'HTML+CSS+JS',
-            'desc' : 'lorem insum dolor amet',
+            'desc' : 'It is a standard tools for any frontend developer. It all starts with these technologies. Without them, nothing would have happened.',
             'imgUrl' : './images/html_css_js.png'
         },
         {
             'id' : '1',
             'title' : 'JavaScript 2015',
-            'desc' : 'lorem insum dolor amet',
+            'desc' : 'This is the new standard of the most used programming language in the world. Many programmers were waiting for the introduction of new standards. And this is not in vain. Many new features and capabilities. That is cool.',
             'imgUrl' : './images/es6.png'
         },
         {
             'id' : '2',
             'title' : 'Craft CMS',
-            'desc' : 'lorem insum dolor amet',
+            'desc' : 'This is a very convenient and usable CMS for both developers and users.It has a user-friendly interface, many plugins and very convenient tools for working with templates.',
             'imgUrl' : './images/craft.png'
         },
         {
             'id' : '3',
             'title' : 'Gulp',
-            'desc' : 'lorem insum dolor amet',
+            'desc' : 'This is one of the most used tools for building your project. It significantly speeds up the development of the code and allows the use of new technologies for development.',
             'imgUrl' : './images/gulp.png'
         },
         {
             'id' : '4',
             'title' : 'Webpack',
-            'desc' : 'lorem insum dolor amet',
+            'desc' : 'Webpack is a module bundler for modern JavaScript applications. When webpack processes your application, it recursively builds a dependency graph that includes every module your application needs.',
             'imgUrl' : './images/webpack.png'
         },
         {
             'id' : '5',
             'title' : 'CSS Pre-processors',
-            'desc' : 'lorem insum dolor amet',
-            'imgUrl' : './images/css_preprocessors.png'
+            'desc' : 'These are tools that allow you to speed up the development of css. Make development very understandable and readable.',
+            'imgUrl' : './images/css_preprocessors.jpg'
         },
         {
-            'id' : 'CSS Frameworks',
-            'title' : 'HTML+CSS+JS',
-            'desc' : 'lorem insum dolor amet',
+            'id' : '6',
+            'title' : 'CSS Frameworks',
+            'desc' : 'This is a ready-made web application template that speeds development and allows for the shortest time to develop an initial version of the application.',
             'imgUrl' : './images/css_frameworks.png'
         }
     ],
@@ -48,8 +48,8 @@ const DATA = {
         {
             'id' : '0',
             'title' : 'Bermuda Quest',
-            'description' : 'Lorem inpum dolor amet',
-            'link' : '#',
+            'description' : 'Site for quest rooms in Odessa.',
+            'link' : 'http://bermuda-quest.com.ua/',
             'tasks' : 'all',
             'tools' : [
                 {
@@ -73,8 +73,8 @@ const DATA = {
         {
             'id' : '2',
             'title' : 'AJ Recruiting',
-            'description' : 'Lorem inpum dolor amet',
-            'link' : '#',
+            'description' : 'UpWork project for recruiting company.',
+            'link' : 'http://ajr.veotest.co.uk/',
             'tasks' : 'all',
             'tools' : [
                 {
@@ -94,8 +94,8 @@ const DATA = {
         {
             'id' : '3',
             'title' : 'Netoctat',
-            'description' : 'Lorem inpum dolor amet',
-            'link' : '#',
+            'description' : 'Website for SEO company in Odessa',
+            'link' : 'http://netocrat.wideweb.pro/',
             'tasks' : 'all',
             'tools' : [
                 {
@@ -115,8 +115,8 @@ const DATA = {
         {
             'id' : '4',
             'title' : 'Wideweb',
-            'description' : 'Lorem inpum dolor amet',
-            'link' : '#',
+            'description' : 'Website for Development company',
+            'link' : 'http://wideweb.pro',
             'tasks' : 'craft',
             'tools' : [
                 {
@@ -132,8 +132,8 @@ const DATA = {
         {
             'id' : '5',
             'title' : 'Crimea Rentime',
-            'description' : 'Lorem inpum dolor amet',
-            'link' : '#',
+            'description' : 'Website for lease auto in Crimea.',
+            'link' : 'http://crimea-rentime.ru/',
             'tasks' : 'craft',
             'tools' : [
                 {
@@ -149,8 +149,8 @@ const DATA = {
         {
             'id' : '6',
             'title' : 'Eco Vagonka',
-            'description' : 'Lorem inpum dolor amet',
-            'link' : '#',
+            'description' : 'Website for sale lining.',
+            'link' : 'http://eco-vagonka.com.ua/',
             'tasks' : 'craft',
             'tools' : [
                 {
@@ -170,8 +170,8 @@ const DATA = {
         {
             'id' : '7',
             'title' : 'Pack',
-            'description' : 'Lorem inpum dolor amet',
-            'link' : '#',
+            'description' : 'Website for sale package.',
+            'link' : 'http://pack.wideweb.pro/',
             'tasks' : 'craft',
             'tools' : [
                 {
@@ -187,8 +187,8 @@ const DATA = {
         {
             'id' : '8',
             'title' : 'CSC',
-            'description' : 'Lorem inpum dolor amet',
-            'link' : '#',
+            'description' : 'Website for construction and sale furniture.',
+            'link' : 'http://csc.mechanised.co.uk/',
             'tasks' : 'craft',
             'tools' : [
                 {
@@ -204,42 +204,66 @@ const DATA = {
         {
             'id' : '10',
             'title' : 'BestMebel',
-            'tasks' : 'different'
+            'description': 'Website for sale furniture',
+            'tasks' : 'different',
+            'tools' : [],
+            'link' : 'http://best-mebel.com.ua/'
         },
         {
             'id' : '11',
             'title' : 'Suvorovskiy',
-            'tasks' : 'different'
+            'description': 'Website for house management company',
+            'tasks' : 'different',
+            'tools' : [],
+            'link' : 'http://suvorovskiy.com.ua/'
         },
         {
             'id' : '12',
             'title' : 'Lisenok',
-            'tasks' : 'different'
+            'description': 'Website for sale baby clothes',
+            'tasks' : 'different',
+            'tools' : [],
+            'link' : 'http://lisenok.ua/'
         },
         {
             'id' : '13',
             'title' : 'Kuzia',
-            'tasks' : 'different'
+            'description': 'Website for sale baby clothes',
+            'tasks' : 'different',
+            'tools' : [],
+            'link' : 'http://kuzya.wideweb.com.ua/'
         },
         {
             'id' : '14',
             'title' : 'Sova',
-            'tasks' : 'different'
+            'description': 'Website for event agency',
+            'tasks' : 'different',
+            'tools' : [],
+            'link' : 'https://sova.org.ua/'
         },
         {
             'id' : '15',
             'title' : 'Faberlic',
-            'tasks' : 'different'
+            'description': 'Website for sale cosmetics',
+            'tasks' : 'different',
+            'tools' : [],
+            'link' : 'http://faberlic-online.org/'
         },
         {
             'id' : '16',
             'title' : 'AngelMu',
-            'tasks' : 'different'
+            'description': 'Website for internet game',
+            'tasks' : 'different',
+            'tools' : [],
+            'link' : 'http://angelmu.ru/'
         },
         {
             'id' : '17',
             'title' : 'JuliaSwed',
-            'tasks' : 'different'
+            'description': 'Website for photographer',
+            'tasks' : 'different',
+            'tools' : [],
+            'link' : 'http://juliaswed.com/'
         }
 
     ]

@@ -46,8 +46,7 @@
     }
     &__descArea{
       padding: 0 2rem;
-      width: 75%;
-      position: relative;
+      width: 100%;
     }
     &__title{
       color: rgba(0,0,0,.7);
@@ -73,9 +72,30 @@
       font-family: 'Open Sans', sans-serif;
       font-size: 1.6rem;
       border-radius: 10px;
-      position: absolute;
-      bottom: 0;
-      right: 0;
+      float: right;
+      margin-top: 2rem;
+    }
+    &__toolsBlock{
+      margin-top: 2rem;
+      ul{
+        margin-top: 2rem;
+        margin-left: 3rem;
+        li{
+          color: rgba(0, 0, 0, 0.7);
+          font-family: 'Open Sans', sans-serif;
+          font-size: 1.4rem;
+          font-weight: 500;
+          line-height: 2.0rem;
+          margin-bottom: 1rem;
+        }
+      }
+    }
+    &__toolsTitle{
+      color: rgba(0, 0, 0, 0.7);
+      font-family: 'Open Sans', sans-serif;
+      font-size: 1.6rem;
+      font-weight: 700;
+      line-height: 2.0rem;
     }
   }
 }

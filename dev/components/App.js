@@ -8,12 +8,18 @@ import Footer from './Footer';
 import DATA from '../data';
 
 class App extends React.Component{
+
+    constructor(){
+        super();
+
+    }
+
     render(){
         return (<div>
             <Header />
             <About />
-            <Skills />
-            <Projects />
+            <Skills dataSkills={DATA.skills} />
+            <Projects dataProject={DATA.projects} />
             <Footer />
         </div>)
     }
