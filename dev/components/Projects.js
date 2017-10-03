@@ -31,14 +31,14 @@ class Projects extends React.Component{
 
                 </div>
                 <h3 className="projectsBlock__subtitle">Adaptation template for Craft CMS</h3>
-                <div className="projectBlock__itemArea">
+                <div className="projectsBlock__itemArea">
 
                     {dataCraftTasks.map((data)=>
                         <ProjectItem key={data.id} data={data} />)}
 
                 </div>
                 <h3 className="projectsBlock__subtitle">Updates on projects</h3>
-                <div className="projectBlock__itemArea">
+                <div className="projectsBlock__itemArea">
                     {dataCleanTasks.map((data)=>
                         <ProjectItem key={data.id} data={data} />)}
                 </div>

@@ -1,15 +1,20 @@
 .aboutBlock{
+  margin-top: 9rem;
   padding: 3rem 0;
   background-color: #f6f2f2;
   .container{
     display: flex;
     justify-content: space-between;
   }
+  &__photo{
+    width: 100%;
+  }
   &__photoArea{
-    width: 40%;
+    width: 30%;
   }
   &__textBlock{
     width: 60%;
+    text-align: justify;
   }
   &__title{
     color: #000000;

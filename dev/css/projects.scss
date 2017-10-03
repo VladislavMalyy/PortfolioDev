@@ -1,6 +1,12 @@
 .projectsBlock{
   padding: 3rem 0;
   background-color: #f6f2f2;
+
+  &__itemArea{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
   &__title{
     color: rgb(0,0,0);
     font-family: 'Open Sans', sans-serif;
@@ -30,11 +36,14 @@
     }
   }
   .projectsItem{
-    padding-bottom: 5rem;
+    width: 30%;
+    background-color: #fff;
+    padding: 3rem 3rem 10rem 3rem;
     display: flex;
     justify-content: space-between;
     margin-bottom: 5rem;
     border-bottom: 5px dotted #ff2d2d;
+    position: relative;
     &.last{
       border: none;
     }
@@ -72,8 +81,9 @@
       font-family: 'Open Sans', sans-serif;
       font-size: 1.6rem;
       border-radius: 10px;
-      float: right;
-      margin-top: 2rem;
+      position: absolute;
+      bottom: 2rem;
+      right: 3rem;
     }
     &__toolsBlock{
       margin-top: 2rem;
